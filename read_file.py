@@ -10,6 +10,9 @@ def read_file(filename: str) -> list[int]:
     """
     # Open the file
     # Read the file
-    return 0 
+    f = open(filename).read()
+    print(f)
 
+    return 0
 #Print list from file
+read_file("data.txt")
